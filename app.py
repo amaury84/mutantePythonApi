@@ -36,10 +36,10 @@ def post():
 
     if mutante.isAdn(dnalist):
         if mutante.isMutant(dnalist):
-            msj="HTTP-OK"
+            msj="HTTP 200-OK"
             return {"msj":msj},200
         else:
-            msj="HTTP-FORBIDEN"
+            msj="HTTP 403-FORBIDDEN"
             return {"msj":msj},403
     else:
         msj = "revisa la cadena de ADN, debe ser de dimesiones NxN y contener sólo elementos ACTG"
