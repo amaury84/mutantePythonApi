@@ -49,8 +49,8 @@ _Cuando se envía una cadena de ADN en formato JSON, hay dos métodos que verifi
 * _El primero, **mutante.isAdn(dna)** devuelve True si la cadena tiene una sintaxis correcta._
  _Cuando devuelve un False, retorna un JSON con un mensaje para verificar la sintaxis de la cadena ADN_
 
-* _El segundo, **mutante.isMutant(dna)** devuelve True si la cadena pertenece a un mutante y la agrega a la base de datos._
-_Cuando devuelve un False, agrega la cadena no mutante a la base de datos_
+* _El segundo, **mutante.isMutant(dna)** devuelve True si la cadena pertenece a un mutante y devuelve un JSON con su respectivo mensaje._
+_Cuando devuelve un False, devuelve un JSON con su respectivo mensaje_
 ```
 #código ejemplo del método app.py
 
