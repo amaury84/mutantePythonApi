@@ -36,7 +36,7 @@ pip install -r requerimientos.txt
 
 ## Ejecutando las pruebas ⚙️
 
-_Una vez creada la base de datos y clonado el proyecto e instalado los requerimientos, puedes ejecutar el script pruebas.py cambiando cada vez la cadena dna
+_Una vez clonado el proyecto e instalado los requerimientos, puedes ejecutar el script pruebas.py cambiando cada vez la cadena dna
 Se debe tener en cuenta que este desarrollo sólo almacena una cadena dna por registro_
 
 ### Iniciando el script app.py para levantar la API de forma local 🔩
